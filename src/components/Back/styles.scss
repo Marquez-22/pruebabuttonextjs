@@ -1,0 +1,7 @@
+.back{
+    width: min(100%,2rem);
+    cursor: pointer;
+    &:hover{
+        color: rgb(139, 13, 13);
+    }
+}

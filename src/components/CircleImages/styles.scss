@@ -1,0 +1,18 @@
+.CircleImages{
+    .circle{
+        aspect-ratio: 1/1; // el mismo tamaño en vertical es lo mismo que horizontal
+        width: 100%;
+        border-radius: 100%;
+         margin: auto;
+         display: flex;
+         align-items: center;
+
+    }
+    &1{
+        .circle{
+            width: 128px;
+           
+    
+        }
+    }
+}

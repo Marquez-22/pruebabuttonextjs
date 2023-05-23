@@ -1,7 +1,7 @@
+import { Container } from "@/components/Container";
+import { ListChats } from "@/components/ListChats";
 
-import { Container } from '@/components/Container'
-import { LoadLoginRegister } from '@/components/LoadLoginRegister'
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -13,11 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
+        <ListChats/>
+        
 
 
-        <LoadLoginRegister />
       </Container>
-
     </>
   )
 }

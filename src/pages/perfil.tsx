@@ -1,7 +1,7 @@
-
-import { Container } from '@/components/Container'
-import { LoadLoginRegister } from '@/components/LoadLoginRegister'
-import Head from 'next/head'
+import { CircleImages } from "@/components/CircleImages";
+import { Container } from "@/components/Container";
+import { ContentProfile } from "@/components/ContentProfile";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
       <Container>
 
+        <ContentProfile />
 
-        <LoadLoginRegister />
       </Container>
 
     </>

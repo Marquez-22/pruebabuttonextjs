@@ -1,0 +1,22 @@
+.loadapp {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    overflow: hidden;
+    .fondo {
+        grid-area: 1 / 1 / 2 / 2;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .logo {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+}

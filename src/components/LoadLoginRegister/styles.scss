@@ -1,0 +1,8 @@
+.load{
+    height: 100dvh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    .btnlogin{
+        padding: 1rem;
+    }
+}
