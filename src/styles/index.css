@@ -221,4 +221,121 @@ img {
   padding: 1rem;
 }
 
+.message1 {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 0px;
+}
+.message1 .userchats {
+  grid-area: 1/1/2/2;
+}
+.message1 .texto {
+  grid-area: 1/2/2/3;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 1px;
+  padding: 1rem;
+}
+.message1.me {
+  grid-template-columns: 1fr 28px;
+}
+.message1.me .userchats {
+  grid-area: 1/2/2/3;
+}
+.message1.me .texto {
+  grid-area: 1/1/2/2;
+}
+
+.ListMessage {
+  display: grid;
+  gap: 1rem;
+}
+
+.BackSegundo {
+  width: min(100%, 1rem);
+  cursor: pointer;
+}
+.BackSegundo:hover {
+  color: rgb(139, 13, 13);
+}
+
+.ChatDetalles {
+  display: grid;
+  gap: 2rem;
+}
+.ChatDetalles .chatmessage {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding: 1rem;
+}
+.ChatDetalles .chatmessage .usuario {
+  width: 100%;
+  text-align: center;
+}
+
+.userinfo {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 2px;
+}
+.userinfo .img {
+  grid-area: 1/1/3/2;
+}
+.userinfo .username {
+  grid-area: 1/2/2/3;
+}
+.userinfo .redes {
+  grid-area: 2/2/3/3;
+}
+
+.History {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100dvh;
+  overflow: hidden;
+}
+.History .usercontent {
+  grid-area: 1/1/2/2;
+  z-index: 2;
+  padding: 1rem;
+  color: white;
+}
+.History .close {
+  width: min(100%, 1rem);
+  cursor: pointer;
+  z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.History .close svg {
+  fill: white;
+  width: 1rem;
+}
+.History .close:hover {
+  color: rgb(139, 13, 13);
+}
+.History .capanegra {
+  grid-area: 1/1/2/2;
+  z-index: 1;
+  background: linear-gradient(179.47deg, #000000 0.45%, rgba(196, 196, 196, 0) 99.55%);
+  height: 30%;
+}
+.History .userimages {
+  grid-area: 1/1/2/2;
+  overflow: hidden;
+  z-index: 1;
+}
+.History .userimages img {
+  width: 100%;
+  height: 100dvh;
+}
+
 /*# sourceMappingURL=index.css.map */

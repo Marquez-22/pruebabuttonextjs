@@ -1,0 +1,19 @@
+.ChatDetalles {
+    display: grid;
+    gap: 2rem;
+
+    .chatmessage {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(206, 206, 206);
+        
+        padding: 1rem;
+
+        .usuario{
+            width: 100%;
+            text-align: center;
+        }
+
+
+    }
+}
